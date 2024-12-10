@@ -1,0 +1,174 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(144deg, #6b6cff, #294a66, #00abd9);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-container {
+            background-color: #fff;
+            
+            border-radius: 10px; 
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            max-width: 600px; 
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+  .registration-form {padding: 30px; }
+        .registration-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+            font-size: 24px; 
+            font-weight: 600;
+        }
+
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; 
+            margin-bottom: 15px;
+        }
+
+        .form-group {
+            flex: 1 1 45%; 
+            margin: 5px; 
+        }
+
+        .form-group input, 
+        .form-group select {
+            width: 100%;
+            padding: 12px; 
+            border-radius: 8px; 
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            font-size: 14px; 
+            transition: all 0.3s ease;
+        }
+
+        .form-group input::placeholder, 
+        .form-group select option {
+            color: black;
+            font-size: 14px; 
+        }
+
+        .form-group input:focus, 
+        .form-group select:focus {
+            border-color: #4CAF50;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(76, 175, 80, 0.2);
+            outline: none;
+        }
+
+        .error-text {
+            color: #e41d07;
+            font-size: 12px;
+            margin-top: 0px;
+            font-weight: bold;
+            background-color: #ebd8d8;
+            padding: 1px 10px;
+            border-radius: 6px;
+            display: inline-block;
+            box-shadow: 0px 2px 5px rgba(231, 76, 60, 0.2);
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+
+        .radio-group {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px 0;
+            margin-bottom: 15px;
+            background-color: #f2f2f2;
+            border-radius: 8px; 
+        }
+
+        .radio-group span {
+            font-size: 20px; 
+            color: #555;
+            font-weight: bold;
+        }
+
+        .radio-group label {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 14px;
+            color: #555;
+            cursor: pointer;
+        }
+
+        .radio-group input[type="radio"] {
+            transform: scale(1.2);
+        }
+
+        .join-btn {
+            display: block;
+            width: 100%;
+            padding: 12px; 
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px; 
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .join-btn:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+
+        .join-btn:active {
+            background-color: #3e8e41;
+            transform: translateY(0);
+        }
+
+        .toggle-password {
+            cursor: pointer;
+            position: absolute;
+            right: 10px;
+            top: 12px;
+        }
+
+        @media (max-width: 600px) {
+            .form-row {
+                flex-direction: column;
+            }
+
+            .form-group {
+                width: 100%;
+            }
+
+            .radio-group {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .radio-group span {
+                margin-bottom: 5px;
+                text-align: left;
+            }
+
+            .radio-group label {
+                justify-content: flex-start;
+            }
+        }

@@ -1,0 +1,136 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #dbb7cb, rgb(201 107 148), rgb(247 70 126));
+}
+  .page-1{
+
+    /* background-color: #fff; */
+    padding: 1px;
+    border-radius: 6px;
+    box-shadow: 1px 7px 5px 6px rgba(0, 0, 0, 0.1);
+    width: 673px;
+height: 381px;
+background-color: #f5d4e3;
+}
+form.login-form {
+    padding-top: 10px;
+} 
+  input#username {
+    width: 259px;
+    height: 40px;
+}
+input#password {
+    width: 259px;
+    height: 40px;
+}
+img {
+  width: 312px;
+  height: 381px;
+  border-radius: 6px;
+  margin-top: -1px;
+}
+h2 {
+        padding-bottom: 14px;
+}
+.input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button {
+    width: 83px;
+    border-radius: 5px;
+    color: white;
+  
+    border: none;
+    height: 33px;
+}
+  button:hover {
+    background-color: #3127ed;
+  }
+  label.forget {
+    padding-top: 8px;
+    font-size: 12px;
+}
+label.tamiz {
+  padding-top: 8px;
+  font-size: 13px;
+}
+span {
+  color: #012574;
+}
+  @media screen and (max-width: 767px) {
+    h2 {
+      padding-top: 15px;
+      font-size: 30px;
+      font-weight: bold;
+  }   
+.page-1 {
+    /* background-color: #fff; */
+    padding: 1px;
+    border-radius: 5px;
+    box-shadow: 1px 7px 5px 6px rgba(0, 0, 0, 0.1);
+    width: 329px;
+    height: 345px;
+    margin-top: -240px;
+}
+  input#username {
+    width: 304px;
+    height: 40px;
+}
+input#password {
+    width: 304px;
+    height: 40px;
+}
+img {
+    width: 328px;
+    height: 336px;
+    /* object-fit: cover; */
+    /* margin-left: -19px; */
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  form.login-form {
+    padding-top: 10px;
+    margin-bottom: 34px;
+}
+  
+  }

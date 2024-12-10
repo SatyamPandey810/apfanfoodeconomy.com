@@ -1,0 +1,30 @@
+
+.table-responsive{
+    overflow-x: auto;
+    background-color:white;
+    box-shadow: 0px 0px 1px 1px #bdbdc1;
+    padding: 10px;
+    border-radius: 2PX;
+}
+
+h3 {
+    padding-bottom: 24px;
+}
+button.btn-edit {
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+.add-pro {
+    text-align: end;
+}
+
+
+.containers {
+    background-color: rgb(19, 212, 238);
+    box-shadow: 0px 3px 4px 1px #bdbdc1;
+    padding: 10px;
+}
+th{
+    text-transform:uppercase; 
+  }
